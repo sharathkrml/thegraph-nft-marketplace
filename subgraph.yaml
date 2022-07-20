@@ -1,4 +1,4 @@
-specVersion: 0.0.1
+specVersion: 0.0.5
 schema:
   file: ./schema.graphql
 dataSources:
@@ -8,6 +8,7 @@ dataSources:
     source:
       address: "0x0081d84ec4dc7e079206870ef3c37847a006b7d8"
       abi: NftMarketPlace
+      startBlock: 11038869
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.5
